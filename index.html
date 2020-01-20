@@ -62,7 +62,7 @@
         <h4>Full Stack Developer</h4><br>
         <p> Hi, I'm Alexis Alvarez, but you can call me Lexie! I'm a full stack developer, who is extremely motivated to constantly develop my
           skills and grow professionally. I gradutated from Northern Arizona University, with a Bachelor of Science in Computer Science and Minor in Mathematics.
-It's my intent to apply my technical knowledge and skills to create products that are well-crafted.
+          It's my intent to apply my technical knowledge and skills to create products that are well-crafted.
           and thoughtfully designed</p>
         <br>
         <p></p>
@@ -79,21 +79,24 @@ It's my intent to apply my technical knowledge and skills to create products tha
     </div>
   </div>
   <!--other stuff about me -->
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <br><br><img src="images/map.png" width="400px" class="map slideanim"></img>
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <br><br><img src="images/map.png" width="400px" class="map slideanim"></img>
+      </div>
+      <div class="col-sm-8">
+        <h2>When not on my laptop..</h2><br>
+        <h4><strong>Art</strong></h4>
+        <p>Any type of art wheither it be pottery, drawing, candle making, painting, sewing, I love it.
+          If I don't know it then it's probly on my list of thing to learn.</p>
+        <h4><strong>Traveling </strong></h4>
+        <p>I enjoy meeting new people and learning about the history and cultural of others.</p>
+        <h4><strong>Fencing </strong></h4>
+        <p>Love the fast pace and strategic sport that is fencing. I always tryed my best to make
+          the NAU club meeting or enrolled a class if possiable</p>
+      </div>
     </div>
-    <div class="col-sm-8">
-      <h2>When not on my laptop..</h2><br>
-      <h4><strong>Art</strong></h4><p>Any type of art wheither it be pottery, drawing, candle making, painting, sewing, I love it.
-        If I don't know it then it's probly on my list of thing to learn.</p>
-      <h4><strong>Traveling </strong></h4><p>I enjoy meeting new people and learning about the history and cultural of others.</p>
-      <h4><strong>Fencing </strong></h4><p>Love the fast pace and strategic sport that is fencing. I always tryed my best to make
-        the NAU club meeting or enrolled a class if possiable</p>
-    </div>
-  </div>
-</div> -->
+  </div> -->
 
   <!-- SKILLS -->
   <div id="skills" class="container-fluid text-center">
@@ -176,7 +179,7 @@ It's my intent to apply my technical knowledge and skills to create products tha
           </div>
           <div class="panel-body">
             <p>The goal of this project was to develop a software tool to address visualization
-               and configuration methods to cause less stress on the user. In particular, a GUI-based desktop application running in a Linux
+              and configuration methods to cause less stress on the user. In particular, a GUI-based desktop application running in a Linux
               environment that serves as a comprehensive, easy to use graphical interface “wrapper” for
               the underlying suite of open-source tools for multiple-drones in autonomous flight.</p>
           </div>
@@ -207,7 +210,6 @@ It's my intent to apply my technical knowledge and skills to create products tha
             <p></p>
           </div>
           <div class="panel-footer">
-            <button class="btn btn-lg">coming soon</button>
             <a href="https://github.com/lexieAA/OS-Simulator/"><button class="btn btn-lg">See the Code</button></a>
           </div>
         </div>
@@ -256,6 +258,24 @@ It's my intent to apply my technical knowledge and skills to create products tha
 
   <script>
     $(document).ready(function() {
+
+      // typing animation
+      (function($) {
+        $.fn.writeText = function(content) {
+          var contentArray = content.split(""),
+            current = 0,
+            elem = this;
+          setInterval(function() {
+            if (current < contentArray.length) {
+              elem.text(elem.text() + contentArray[current++]);
+            }
+          }, 80);
+        };
+
+      })(jQuery);
+
+      // input text for typing animation
+      $("#holder").writeText("CREATING DREAMS INTO REALITY");
       // scrolling to all links in navbar + footer link
       $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
         if (this.hash !== "") {

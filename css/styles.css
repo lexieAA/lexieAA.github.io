@@ -1,0 +1,282 @@
+.home {
+  background: url("https://images.unsplash.com/photo-1574171361912-c3a59ab92108?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  padding: 15% 3% 15% 7%;
+}
+
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+}
+
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #111;
+}
+.button{
+  padding-right: 100px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+  background-color: #f4eee1;
+  /* background-color:e8e6d9 #f6f6f6; */
+}
+
+.logo-small {
+  color: #843732;
+  font-size: 50px;
+}
+
+.logo {
+  color: #843732;
+  font-size: 200px;
+}
+
+.icon2 {
+  color: white;
+}
+
+.icon2:hover {
+  color: #31221E;
+}
+
+/* --------_-posters-------- */
+
+
+.poster-box {
+  /* padding: 0px 0px 15px 0px; */
+
+  border: none;
+  border-radius: 0;
+}
+
+.poster1 {
+  border: 5px solid #707C7B;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+  width: 350px;
+  height: 350px;
+  background-image: url('../images/net.png');
+}
+
+.poster2 {
+  border: 5px solid #707C7B;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+  width: 350px;
+  height: 350px;
+  background-image: url('../images/capstone_img.png') ;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  opacity: 0;
+}
+
+.poster1:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  background-color: #707C7B;
+  padding: 50px;
+}
+
+.poster2:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.poster2:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  background-color: #707C7B;
+  /* background-color: #31221E; */
+  padding: 50px;
+}
+
+.poster1:hover .text p{
+  color: white;
+}
+.poster2:hover .text p{
+  color: white;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+
+/* ------------past work panels-------------*/
+.panel {
+  border: 1px solid #707C7B;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #707C7B;
+  background-color: #fff !important;
+  color: #843732;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #707C7B !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* past work panel footer */
+.panel-footer {
+  background-color: white !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #707C7B;
+  color: #fff;
+}
+
+/* ---------nav bar------------- */
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #843732 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+/* ---------contact---------- */
+#contact{
+  background-color: #31221E;
+}
+
+#contact p {
+  color: white;
+}
+
+/* ---------footer----------- */
+#footer{
+  background-color: #707C7B;
+}
+
+#footer p {
+  color: white;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #843732;
+}
+ /* glyphicon ions in footer */
+.glyphicon-envelope{
+  color: #707C7B;
+}
+
+.glyphicon-map-marker{
+  color: #707C7B;
+}
+
+.glyphicon-phone{
+  color: #707C7B;
+}
+
+/*------- animation---------- */
+.slideanim {
+  visibility: hidden;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
