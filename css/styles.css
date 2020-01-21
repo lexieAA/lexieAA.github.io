@@ -26,7 +26,6 @@ h3, h4 {
 
 .bg-grey {
   background-color: #f4eee1;
-  /* background-color:e8e6d9 #f6f6f6; */
 }
 
 .logo-small {
@@ -47,12 +46,10 @@ h3, h4 {
   color: #31221E;
 }
 
-/* --------_-posters-------- */
+/* ---------posters-------- */
 
 
 .poster-box {
-  /* padding: 0px 0px 15px 0px; */
-
   border: none;
   border-radius: 0;
 }
@@ -63,7 +60,7 @@ h3, h4 {
   transition: box-shadow 0.5s;
   width: 350px;
   height: 350px;
-  background-image: url('../images/net.png');
+  background-image: url('../images/net.PNG');
 }
 
 .poster2 {
@@ -72,7 +69,7 @@ h3, h4 {
   transition: box-shadow 0.5s;
   width: 350px;
   height: 350px;
-  background-image: url('../images/capstone_img.png') ;
+  background-image: url('../images/capstone_img.PNG') ;
 }
 
 .text {
@@ -214,7 +211,7 @@ footer .glyphicon {
   margin-bottom: 20px;
   color: #843732;
 }
- /* glyphicon ions in footer */
+ /* glyphicon ions in contact */
 .glyphicon-envelope{
   color: #707C7B;
 }
