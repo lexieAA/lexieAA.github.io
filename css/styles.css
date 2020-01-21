@@ -16,6 +16,16 @@ h3, h4 {
   font-size: 20px;
   color: #111;
 }
+
+/* ----------about me-------- */
+#about2 h4{
+  color: #843732;
+}
+
+.download-button{
+  color: #843732;
+}
+
 .button{
   padding-right: 100px;
 }
@@ -24,7 +34,7 @@ h3, h4 {
   padding: 60px 50px;
 }
 
-.bg-grey {
+.tan-box {
   background-color: #f4eee1;
 }
 
