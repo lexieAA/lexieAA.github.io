@@ -1,2 +1,2 @@
 # lexieAA.github.io
-A website adout me
+A website about me
