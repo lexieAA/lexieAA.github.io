@@ -48,14 +48,6 @@ h3, h4 {
   font-size: 200px;
 }
 
-.icon2 {
-  color: white;
-}
-
-.icon2:hover {
-  color: #31221E;
-}
-
 /* ---------posters-------- */
 
 
@@ -207,6 +199,19 @@ h3, h4 {
   color: white;
 }
 
+ /* glyphicon ions in contact */
+.glyphicon-envelope{
+  color: #707C7B;
+}
+
+.glyphicon-map-marker{
+  color: #707C7B;
+}
+
+.glyphicon-phone{
+  color: #707C7B;
+}
+
 /* ---------footer----------- */
 #footer{
   background-color: #707C7B;
@@ -222,17 +227,14 @@ footer .glyphicon {
   margin-bottom: 20px;
   color: #843732;
 }
- /* glyphicon ions in contact */
-.glyphicon-envelope{
-  color: #707C7B;
+
+.icon2 {
+  color: white;
+  padding-right: 20%;
 }
 
-.glyphicon-map-marker{
-  color: #707C7B;
-}
-
-.glyphicon-phone{
-  color: #707C7B;
+.icon2:hover {
+  color: #31221E;
 }
 
 /*------- animation---------- */
